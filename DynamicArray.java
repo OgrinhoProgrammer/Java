@@ -60,11 +60,7 @@ public class DynamicArray <T> implements Iterable<T> {
 		}
 
 		arr = new_arr;
-		System.out.println("Size Before: " + capacity);
-		System.out.println("length: " + len);
 		capacity = --len;
-		System.out.println("Size After: " + capacity);
-		System.out.println("length: " + len);
 
 		return data;
 	}
