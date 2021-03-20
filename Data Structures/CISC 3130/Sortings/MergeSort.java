@@ -2,7 +2,7 @@ package com.ogrinhoProgrammer;
 
 import java.util.Arrays;
 
-public class Main {
+public class MergeSort {
 
     public static void mergeSort(int[] list) {
         if (list.length > 1) {
